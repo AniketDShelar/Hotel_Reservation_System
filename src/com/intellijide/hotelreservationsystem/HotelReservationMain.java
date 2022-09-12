@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class HotelReservationMain {
     public static void main(String[] args) {
         HotelReservation reservation = new HotelReservation();
-        reservation.addHotel("Lakewood",110,90);
-        reservation.addHotel("Bridgewood",160,60);
-        reservation.addHotel("Ridgewood",220,150);
+        reservation.addHotel("Lakewood");
+        reservation.addHotel("Bridgewood");
+        reservation.addHotel("Ridgewood");
 
         System.out.println(reservation.hotelList);
     }
